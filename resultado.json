@@ -1,0 +1,255 @@
+{
+  "documents": [
+      {
+          "id": "id__4455",
+          "sentiment": "mixed",
+          "confidenceScores": {
+              "positive": 0.45,
+              "neutral": 0.1,
+              "negative": 0.45
+          },
+          "sentences": [
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.15,
+                      "neutral": 0.83,
+                      "negative": 0.02
+                  },
+                  "offset": 0,
+                  "length": 21,
+                  "text": "Documento de Exemplo\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0,
+                      "neutral": 1,
+                      "negative": 0
+                  },
+                  "offset": 21,
+                  "length": 12,
+                  "text": "Introdução:\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0,
+                      "neutral": 0.99,
+                      "negative": 0
+                  },
+                  "offset": 33,
+                  "length": 82,
+                  "text": "Este é um documento de exemplo destinado a ilustrar a criação de conteúdo de texto. ",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.03,
+                      "neutral": 0.97,
+                      "negative": 0
+                  },
+                  "offset": 115,
+                  "length": 81,
+                  "text": "As sentenças abaixo abrangem diversos tópicos para fornecer variedade ao texto.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0,
+                      "neutral": 0.99,
+                      "negative": 0
+                  },
+                  "offset": 196,
+                  "length": 9,
+                  "text": "Conteúdo:\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.01,
+                      "neutral": 0.99,
+                      "negative": 0
+                  },
+                  "offset": 205,
+                  "length": 104,
+                  "text": "1. A inteligência artificial está transformando rapidamente a maneira como interagimos com a tecnologia.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.18,
+                      "neutral": 0.72,
+                      "negative": 0.1
+                  },
+                  "offset": 309,
+                  "length": 125,
+                  "text": "2. A automação de tarefas repetitivas permite que os profissionais se concentrem em atividades mais estratégicas e criativas.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                      "positive": 0.87,
+                      "neutral": 0.13,
+                      "negative": 0
+                  },
+                  "offset": 434,
+                  "length": 178,
+                  "text": "3. O aprendizado de máquina é uma disciplina essencial no campo da inteligência artificial, capacitando sistemas a aprender com dados e melhorar seu desempenho ao longo do tempo.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.01,
+                      "neutral": 0.99,
+                      "negative": 0
+                  },
+                  "offset": 612,
+                  "length": 137,
+                  "text": "4. A diversidade de aplicações de IA, como reconhecimento de fala, visão computacional e chatbots, está revolucionando várias indústrias.\r\n",
+                  "targets": [
+                      {
+                          "sentiment": "positive",
+                          "confidenceScores": {
+                              "positive": 1,
+                              "negative": 0
+                          },
+                          "offset": 658,
+                          "length": 10,
+                          "text": "aplicações",
+                          "relations": [
+                              {
+                                  "relationType": "assessment",
+                                  "ref": "#/documents/0/sentences/8/assessments/0"
+                              }
+                          ]
+                      }
+                  ],
+                  "assessments": [
+                      {
+                          "sentiment": "positive",
+                          "confidenceScores": {
+                              "positive": 1,
+                              "negative": 0
+                          },
+                          "offset": 742,
+                          "length": 14,
+                          "text": "revolucionando",
+                          "isNegated": false
+                      }
+                  ]
+              },
+              {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                      "positive": 0.07,
+                      "neutral": 0.14,
+                      "negative": 0.79
+                  },
+                  "offset": 749,
+                  "length": 134,
+                  "text": "5. A ética no uso da inteligência artificial é uma preocupação crescente, exigindo a implementação de padrões e práticas responsáveis.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.05,
+                      "neutral": 0.94,
+                      "negative": 0.01
+                  },
+                  "offset": 883,
+                  "length": 119,
+                  "text": "6. A computação em nuvem desempenha um papel fundamental no fornecimento de recursos escaláveis para aplicativos de IA.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                      "positive": 0.42,
+                      "neutral": 0.02,
+                      "negative": 0.57
+                  },
+                  "offset": 1002,
+                  "length": 163,
+                  "text": "7. A linguagem natural é um desafio contínuo na IA, exigindo o desenvolvimento de modelos avançados para entender e gerar texto de maneira contextualmente precisa.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.17,
+                      "neutral": 0.81,
+                      "negative": 0.02
+                  },
+                  "offset": 1165,
+                  "length": 110,
+                  "text": "8. A segurança cibernética tornou-se ainda mais crucial com o aumento da adoção de tecnologias baseadas em IA.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0,
+                      "neutral": 1,
+                      "negative": 0
+                  },
+                  "offset": 1275,
+                  "length": 12,
+                  "text": "Conclusão:\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.31,
+                      "neutral": 0.69,
+                      "negative": 0
+                  },
+                  "offset": 1287,
+                  "length": 149,
+                  "text": "Este documento demonstra a versatilidade da linguagem escrita e destaca alguns dos tópicos relevantes no campo da inteligência artificial e tecnologia.\r\n",
+                  "targets": [],
+                  "assessments": []
+              },
+              {
+                  "sentiment": "neutral",
+                  "confidenceScores": {
+                      "positive": 0.12,
+                      "neutral": 0.73,
+                      "negative": 0.14
+                  },
+                  "offset": 1436,
+                  "length": 19,
+                  "text": "Fim do Documento.  ",
+                  "targets": [],
+                  "assessments": []
+              }
+          ],
+          "warnings": []
+      }
+  ],
+  "errors": [],
+  "modelVersion": "2022-11-01"
+}
